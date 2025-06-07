@@ -1,0 +1,7 @@
+<h2>Life Cycle Hooks</h2>
+    <button (click)="toggle()">Hide/Show Child</button>
+    @if (displayChild) {
+    <app-life-cycle-child 
+      [message]="'Hello'">
+    </app-life-cycle-child>
+}

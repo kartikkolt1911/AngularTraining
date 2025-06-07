@@ -1,0 +1,17 @@
+<h1>{{ sample }}</h1>
+
+<br>
+<hr>
+
+
+<h2><p> Event binding </p></h2>
+<button (click)="disable()"> {{ name }} </button>
+@if (isDisabled){<p > Hello There! </p>}
+
+<br>
+<hr>
+
+<h2><p> two way binding </p></h2>
+
+<p> {{ twoWay }} </p>
+<textarea  [(ngModel)]="twoWay"></textarea>

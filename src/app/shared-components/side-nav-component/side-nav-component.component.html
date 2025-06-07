@@ -1,0 +1,22 @@
+<div class="row side-nav">
+    <div class="col-md-2 col-sm-2 col-xs-2">
+        <br>
+      <ul>
+        <li><a [routerLink]="['/home']">DataBinding</a></li>
+        <br>
+        <li><a [routerLink]="['/course']">Component Communication</a></li>
+        <br>
+        <li><a [routerLink]="['/reactive']">Reactive Forms</a></li>
+        <br>
+        <li><a [routerLink]="['/template']">Template Forms</a></li>
+        <br>
+        <li><a [routerLink]="['/lifecycle']">lifeCycle</a></li>
+        <br>
+        <li><a [routerLink]="['/users']">Users</a></li>
+      </ul>
+    </div>
+    <div class="col-md-10 col-sm-10 col-xs-10">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  
