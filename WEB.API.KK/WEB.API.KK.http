@@ -1,0 +1,6 @@
+@WEB.API.KK_HostAddress = http://localhost:5062
+
+GET {{WEB.API.KK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
